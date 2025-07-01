@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Run Tests') {
             steps {
-                bat 'python test-app.py'
+                bat '"E:/Anaconda/python.exe" test-app.py'
             }
         }
     }
