@@ -6,7 +6,7 @@ todos = []
 
 @app.route('/todos', methods=['GET'])
 def get_todos():
-    return jsonify(todos), 200 #change to 200 for success
+    return jsonify(todos), 250 #change to 200 for success
 
 @app.route('/todos', methods=['POST'])
 def add_todo():
